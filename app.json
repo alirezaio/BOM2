@@ -1,0 +1,13 @@
+{
+  "name": "BOM BOM",
+  "description": "Ruby on Rails application that mimics social news link sharing websites.",
+  "repository": "",
+  "logo": "",
+  "keywords": ["rails", "ruby-on-rails"],
+  "website": "",
+  "env": {
+    "GOOGLE_ANALYTICS": "",
+    "SITE_TITLE": "BOM BOM",
+    "SEO_TITLE": "Best of Malaysia"
+  }
+}
