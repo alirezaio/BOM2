@@ -10,12 +10,12 @@ gem 'sorcery', '0.9.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'validate_url'
+gem 'thin'
 
 # This allows us to import bower packages
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap-material-design'
 end
-
 
 
 group :development, :test do
