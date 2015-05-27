@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def site_title_text
-    ENV["SITE_TITLE"] || "BOM BOM"
+    ENV["SITE_TITLE"] || image_tag("coffeeticks-logo-white.png", width: '240', style: 'margin-top:-7px')
   end
 
   def seo_title_text
