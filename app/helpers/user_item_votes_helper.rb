@@ -1,10 +1,10 @@
 module UserItemVotesHelper
   def link_to_upvote(object)
-    link_to '', vote_item_path(object), method: :post, class: 'fa fa-thumbs-up fa-3x'
+    link_to '', vote_item_path(object), method: :post, class: 'fa fa-thumbs-up fa-2x'
   end
 
   def link_to_downvote(object)
-    link_to '', vote_item_path(object), method: :delete, class: 'fa fa-thumbs-down fa-3x'
+    link_to '', vote_item_path(object), method: :delete, class: 'fa fa-thumbs-down fa-2x'
   end
 
   def render_votes_for_item(item=nil)
