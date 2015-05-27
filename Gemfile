@@ -10,6 +10,7 @@ gem 'sorcery', '0.9.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'validate_url'
+gem 'thin'
 gem 'font-awesome-rails'
 
 # This allows us to import bower packages
