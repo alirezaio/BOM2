@@ -14,9 +14,8 @@ gem 'thin'
 gem 'font-awesome-rails'
 
 # This allows us to import bower packages
-source 'https://rails-assets.org' do
-  gem 'rails-assets-bootstrap-material-design'
-end
+source 'https://rails-assets.org'
+gem 'rails-assets-bootstrap-material-design'
 
 
 group :development, :test do
