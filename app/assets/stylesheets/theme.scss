@@ -25,7 +25,7 @@ body {
 	background: #ffffff; 
 	margin: 0; 
 	height: 100%; 
-	color: #384452;
+	color: #C90C1f;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
@@ -42,7 +42,7 @@ p {
 	font-weight: 400;
 	font-size: 14px; 
 	line-height: 24px;
-	color: #384452; 
+	color: #C90C1f; 
 	margin-top: 10px; 
 }
 
@@ -116,12 +116,12 @@ a:focus {
 }
 
 .navbar-default {
-	background-color: #384452;
+	background-color: #C90C1f;
 	border-color: transparent;
 }
 
 .dropdown-menu {
-	background: #384452;
+	background: #C90C1f;
 }
 
 .dropdown-menu > li > a {
@@ -135,13 +135,13 @@ a:focus {
 .btn-theme:active,
 .btn-theme.active, {
   color: #fff;
-  background-color: #384452;
-  border-color: #384452;
+  background-color: #C90C1f;
+  border-color: #C90C1f;
 
   &:hover {
     color: #fff;
     background-color: #00b3fe;
-    border-color: #384452;
+    border-color: #C90C1f;
   }
 }
 
@@ -192,7 +192,7 @@ a:focus {
 }
 
 .hline {
-	border-bottom: 2px solid #384452;
+	border-bottom: 2px solid #C90C1f;
 }
 
 .hline-w {
@@ -333,7 +333,7 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: #384452;
+	background: #C90C1f;
 }
 
 #footerwrap p {
