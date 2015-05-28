@@ -83,5 +83,5 @@ test:
 production:
   <<: *default
   database: rails-hackernews-reddit-producthunt_production
-  username: rails-hackernews-reddit-producthunt
-  password: <%= ENV['RAILS-HACKERNEWS-REDDIT-PRODUCTHUNT_DATABASE_PASSWORD'] %>
+  username: bom
+  password: <%= ENV['BOM_PASSWORD'] %>
