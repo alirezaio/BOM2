@@ -4,7 +4,7 @@ module UserItemVotesHelper
   end
 
   def link_to_downvote(object)
-    link_to '', vote_item_path(object), method: :delete, class: 'fa fa-thumbs-down fa-2x'
+    link_to '', vote_item_path(object), method: :delete, class: 'fa fa-thumbs-up fa-2x', style: 'color: #87DFEF'
   end
 
   def render_votes_for_item(item=nil)
