@@ -1,7 +1,5 @@
 <p>
-  <strong>[score: <%= @item.score %>]</strong>
-  <%= render_votes_for_item(@item) %>
-  <span>comments: <%= @item.comments_count %></span>
+  <%= render_votes_for_item(@item) %><strong>[<%= @item.score %>]</strong>
 </p>
 
 <p>
@@ -14,14 +12,13 @@
 
 <ul>
   <% if current_user %>
-    <li>
-      <%= simple_form_for([@item, current_user.item_comments.build]) do |f| %>
-        <%= f.input :content, label: false, required: true %>
-        <%= f.button :submit %>
-      <% end %>
-    </li>
+    <%= simple_form_for([@item, current_user.item_comments.build]) do |f| %>
+      <%= f.input :content, label: false, required: true %>
+      <%= f.submit "Comment", type: 'submit', class: 'btn btn-default' %>
+    <% end %>
   <% end %>
 
+<hr>
   <% @comments.each do |comment| %>
     <%= content_tag_for(:li, comment) do %>
       <span>
