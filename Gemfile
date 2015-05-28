@@ -17,6 +17,7 @@ gem 'font-awesome-rails'
 source 'https://rails-assets.org'
 gem 'rails-assets-bootstrap-material-design'
 
+gem 'unicorn', group: :production
 
 group :development, :test do
   gem 'dotenv-rails'
