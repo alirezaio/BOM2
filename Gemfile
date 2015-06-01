@@ -22,6 +22,8 @@ gem 'therubyracer', :platforms => :ruby
 gem 'mina-sidekiq', :require => false
 gem 'mina-unicorn', :require => false
 
+gem 'sidekiq', group: :production
+
 # This allows us to import bower packages
 source 'https://rails-assets.org'
 gem 'rails-assets-bootstrap-material-design'
