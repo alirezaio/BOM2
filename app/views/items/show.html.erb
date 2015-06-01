@@ -1,5 +1,5 @@
 <p>
-  <%= render_votes_for_item(@item) %><strong>[<%= @item.score %>]</strong>
+  <%= render_votes_for_item(@item) %><strong><button class="btn btn-danger" type="button"><%= @item.score %></button></strong>
 </p>
 
 <p>
@@ -22,7 +22,7 @@
   <% @comments.each do |comment| %>
     <%= content_tag_for(:li, comment) do %>
       <span>
-        created: <%= link_to time_ago_in_words(comment.created_at), item_path(@item, anchor: "comment") %> ago.
+        <%= link_to time_ago_in_words(comment.created_at), item_path(@item, anchor: "comment") %> ago.
         <small>(posted by: <%= link_to comment.user.username, comment.user %>)</small>
       </span>
       <br/>
