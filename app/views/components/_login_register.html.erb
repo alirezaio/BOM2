@@ -14,10 +14,13 @@
         <div class="col-lg-8 col-lg-offset-2">
           <% if current_user %>
             <h5>Coffeeticks Proudly Presents</h5>
-          <% end %>
+          
 
           <h1>Best of Malaysia</h1>
-          <h5>Coffeeticks Trending is a curated list of Malaysia's most viral lifestyle stories. Sign up today to submit links and vote for your best story</h5>
+          <% end %>
+          <h5>Coffeeticks Trending is a curated list of Malaysia's most viral lifestyle stories. 
+          <br></br>
+          <%= link_to 'Sign up', new_user_path, class: 'btn btn-danger' %> today to submit links and vote for your best story</h5>
 
 <!--           <% @user ||= User.new %>
           <div class="row">
