@@ -74,7 +74,7 @@ task :deploy => :environment do
 
     to :launch do
       invoke :'sidekiq:restart'
-      invoke :'unicorn_rails:restart'
+      invoke :'unicorn:restart'
     end
   end
 end
