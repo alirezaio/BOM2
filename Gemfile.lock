@@ -240,7 +240,6 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.3)
   byebug
   dotenv-rails
-  execjs
   factory_girl_rails
   faker
   font-awesome-rails
