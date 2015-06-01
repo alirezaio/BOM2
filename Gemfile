@@ -13,6 +13,15 @@ gem 'validate_url'
 gem 'thin'
 gem 'font-awesome-rails'
 
+# The lovely mina
+gem 'mina'
+
+gem 'therubyracer', :platforms => :ruby
+
+# help manage Unicorn and Sidekiq
+gem 'mina-sidekiq', :require => false
+gem 'mina-unicorn', :require => false
+
 # This allows us to import bower packages
 source 'https://rails-assets.org'
 gem 'rails-assets-bootstrap-material-design'
