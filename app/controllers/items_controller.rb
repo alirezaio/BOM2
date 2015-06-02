@@ -4,7 +4,7 @@ class ItemsController < ApplicationController
   before_action :set_user_item, only: [:edit, :update, :toggle]
 
   def index
-    order = params[:newest] ? {created_at: :desc} : {rank: :desc}
+    order = params[:top] ? {score: :desc} : {created_at: :desc}
 
     @items = Item.order(order).includes(:user)
     @votes = @items.includes(:votes).each_with_object({}) do |item, object|
